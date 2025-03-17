@@ -52,7 +52,7 @@ class FormatResponse2(BaseModel):
     pgroup: Optional[str] = Field(None, description="group name of product")
 ```
 
-This provides full runtime validation
-The *Field(None, ...)* syntax makes these fields truly optional
-The validation is against any string, not restricted to specific values
-Includes documentation via *description*
+ * This provides full runtime validation
+ * The *Field(None, ...)* syntax makes these fields truly optional
+ * The validation is against any string, not restricted to specific values
+ * Includes documentation via *description*
