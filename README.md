@@ -46,7 +46,7 @@ class format_response(TypedDict):
 
 In your second example:
 ```python
-class FormatResponse2(BaseModel):
+class format_basemodel(BaseModel):
     series: Optional[str] = Field(None, description="Series of product")
     color: Optional[str] = Field(None, description="color of product")
     pgroup: Optional[str] = Field(None, description="group name of product")
